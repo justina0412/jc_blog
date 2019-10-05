@@ -3,11 +3,7 @@ layout: post
 title: "Blog 0"
 ---
 
-<<<<<<< HEAD
-  So far in CIT, I haven't had any trouble using my Windows OS, until the first week of school during my last year of my undergrad!</p?
-=======
   So far in CIT, I haven't had any trouble using my Windows OS, until the first week of school during my last year of my undergrad!
->>>>>>> 3d2823fdc7bd421c60fe42467a23ef8676280dd9
 
   Although the assignment was given about 2 weeks ago, I didn't start until Labor day weekend. I figured completing the assignment a week in advance would be okay. It took nearly a week to figure out how to install Docker on Windows!
 
