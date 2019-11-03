@@ -26,7 +26,6 @@ email: chapman.justina@gmail.com
 #  Google search results) and in your feed.xml site description.
 baseurl: "jc_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ninamay412
 github_username:  justina0412
 
 # Build settings
