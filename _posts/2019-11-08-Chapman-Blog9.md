@@ -15,7 +15,6 @@ It contains listeners which check for connection requests from clients.
 The load balancer also Monitors the health of the targets (ec2). If targets are unhealthy, the load balancer with stop routing traffic.
 
 Link to a load balancer diagram:
-
 https://s3-us-west-2.amazonaws.com/us-west-2-aws-training/awsu-spl/spl-68/images/diagram.png
 
 
