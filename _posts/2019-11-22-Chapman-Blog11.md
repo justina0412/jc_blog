@@ -14,7 +14,7 @@ Ansible works by connecting to your nodes and puishing out modules. Ansible exec
 
 Playbooks are written in YAML.YAML syntax can be found here:
 
-https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html#yaml-syntax
+  https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html#yaml-syntax
 
 Playbook Basics
 ---------------
@@ -26,31 +26,31 @@ The "hosts" line is a list of one or more groups or host patterns, separated by 
 The remote_user is just the name of the user account.
 
 Example:
-	- hosts: webservers
-  	  remote_user: root
+	   - hosts: webservers
+  	    remote_user: root
 
 "remote_user" can be assigned for each task.
 
 Example:
-	---
-	- hosts: webservers
-  	  remote_user: root
- 	  tasks:
-   	    - name: test connection
-     	      ping:
+	 ---
+	   - hosts: webservers
+  	     remote_user: root
+ 	       tasks:
+   	      - name: test connection
+     	        ping:
               remote_user: yourname
 
 "become" can be used on a certain task instead of a whole play
 
 Example:
 	---
-	- hosts: webservers
-  	  remote_user: yourname
-  	  tasks:
-  	    - service:
+	     - hosts: webservers
+  	     remote_user: yourname
+  	     tasks:
+  	      - service:
       	        name: nginx
       	        state: started
      	      become: yes
-              become_method: sudo
+            become_method: sudo
 
 To be continued in Blog 12...
