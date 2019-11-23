@@ -10,11 +10,11 @@ Ansible works by connecting to your nodes and puishing out modules. Ansible exec
 
 "Playbooks can finely orchestrate multiple slices of your infrastructure topology, with very detailed control over how many machines to tackle at a time...They can describe a policy you want your remote systems to enforce, or a set of steps in a general IT process." (ansible.com). Ansible provides plenty of documentation regarding playbooks. Documenation can be found here:
 
-	https://docs.ansible.com/ansible/latest/user_guide/playbooks.html
+	  https://docs.ansible.com/ansible/latest/user_guide/playbooks.html
 
 Playbooks are written in YAML.YAML syntax can be found here:
 
-  https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html#yaml-syntax
+    https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html#yaml-syntax
 
 Playbook Basics
 ---------------
@@ -26,13 +26,14 @@ The "hosts" line is a list of one or more groups or host patterns, separated by 
 The remote_user is just the name of the user account.
 
 Example:
+
 	   - hosts: webservers
   	    remote_user: root
 
 "remote_user" can be assigned for each task.
 
 Example:
-	 ---
+
 	   - hosts: webservers
   	     remote_user: root
  	       tasks:
@@ -43,7 +44,7 @@ Example:
 "become" can be used on a certain task instead of a whole play
 
 Example:
-	---
+
 	     - hosts: webservers
   	     remote_user: yourname
   	     tasks:
