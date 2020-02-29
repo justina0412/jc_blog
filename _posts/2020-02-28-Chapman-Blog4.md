@@ -19,6 +19,7 @@ A relational database is a type of database that stores and provides access to d
 
 -Views can be generated which are a saved set of results.
 
+
 Relationships
 _____________
 Each table has a primary key to uniquely identify a record so there is not repetition. A foreign key is the ID in the other table used to set up a relationship in another table to bring tables together. A foreign key is also a reference to a primary key in another table. Tables can be joined together by using a foreign key in one table and linking it to a primary key in another table (can be done using a query.
