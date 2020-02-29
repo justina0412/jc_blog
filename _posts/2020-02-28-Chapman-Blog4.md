@@ -12,8 +12,11 @@ ____________________
 A relational database is a type of database that stores and provides access to data points that are related to one another. They're based on the relational model which is a direct, straightforward way of representing data in tables. Each row and table has a unique ID called the key. Columns represent attributes. Tables are related to other tables.  
 
 -Rows are called tuples.
+
 -Columns are called attributes or properties.
+
 -Tables are called relations and entities or objects.
+
 -Views can be generated which are a saved set of results.
 
 Relationships
