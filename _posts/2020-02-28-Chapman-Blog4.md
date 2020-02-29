@@ -5,21 +5,22 @@ title: "Blog 4"
 
 The Difference Between Relational vs. Non-Relational Databases
 --------------------------------------------------------------                       
-
+____________________
 Relational Databases
 ____________________
 
 A relational database is a type of database that stores and provides access to data points that are related to one another. They're based on the relational model which is a direct, straightforward way of representing data in tables. Each row and table has a unique ID called the key. Columns represent attributes. Tables are related to other tables.  
 
-Rows are called tuples.
-Columns are called attributes or properties.
-Tables are called relations and entities or objects.
-Views can be generated which are a saved set of results.
+-Rows are called tuples.
+-Columns are called attributes or properties.
+-Tables are called relations and entities or objects.
+-Views can be generated which are a saved set of results.
 
 Relationships
-
+_____________
 Each table has a primary key to uniquely identify a record so there is not repetition. A foreign key is the ID in the other table used to set up a relationship in another table to bring tables together. A foreign key is also a reference to a primary key in another table. Tables can be joined together by using a foreign key in one table and linking it to a primary key in another table (can be done using a query.
 
+________________________
 Non-Relational Databases
 ________________________
 
