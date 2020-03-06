@@ -44,7 +44,7 @@ You can make text bold or italic by adding emphasis to the text.
 
 ### Lists
 
-#####Ordered Lists
+**Ordered Lists**
 
 Items can be organized in ordered and unordered lists.
 
@@ -76,7 +76,7 @@ Items can be organized in ordered and unordered lists.
             2. Indented item
         4. Fourth item
 
-#####Unordered Lists
+**Unordered Lists**
 
         To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
 
