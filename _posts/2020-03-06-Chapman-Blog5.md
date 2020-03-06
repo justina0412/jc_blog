@@ -12,12 +12,12 @@ Mentioned below is the syntax for Markdown. Our weekly blogs are in Markdown and
 
 Headings are created by adding number signs ($) in front of a word or phrase
 
-        **# Heading 1**
-        **## Heading 2**
-        **### Heading 3**
-        **#### Heading 4**
-        **##### Heading 5**
-        **###### Heading 6**
+        # Heading 1
+        ## Heading 2
+        ### Heading 3
+        #### Heading 4
+        ##### Heading 5
+        ###### Heading 6
 
 ### Paragraphs & Break Lines
 
