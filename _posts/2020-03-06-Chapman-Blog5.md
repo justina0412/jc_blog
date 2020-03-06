@@ -40,7 +40,7 @@ You can make text bold or italic by adding emphasis to the text.
         ____bold & italic text____ (do not use in a sentence, only with standalone text)
         This is **_bold & italic text_**.
         This is __*bold & italic text*__.
-        This is **8bold & italic text***.
+        This is ***bold & italic text***.
 
 ### Lists
 
