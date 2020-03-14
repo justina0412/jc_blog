@@ -3,7 +3,7 @@ layout: post
 title: "Blog 7"
 ---
 Basic Python for ArcMap
-__________________
+-----------------------
 
 Here are some basic commands for starting a new map document in ArcMap which is the software typically used for GIS which is written in Python.
 
@@ -79,7 +79,7 @@ String literal with “r” before the path:
 Double backslash “\\\” in path name:
 
 	aWS = "C:\\Geog\\Workspace"
-	
+
 Single forward slash “/” in pathname:
 
 	aWS = "C:\\Geog/Workspace"
