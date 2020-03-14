@@ -1,109 +1,96 @@
 ---
 layout: post
-title: "Blog 5"
+title: "Blog 6"
 ---
 
-Markdown Basic Syntax
+C++ - Classes & Objects
 ---------------------
+*(Credit: w3schools.com)*
 
-Mentioned below is the syntax for Markdown. Our weekly blogs are in Markdown and I have yet to use proper syntax. Listed are a few of the best practices for text when creating a markdown file.
+C++ is an object-oriented programming language.
 
-### Headings
+Everything in C++ is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.
 
-Headings are created by adding number signs ($) in front of a word or phrase
+Attributes and methods are basically variables and functions that belongs to the class. These are often referred to as "class members".
 
-        # Heading 1
-        ## Heading 2
-        ### Heading 3
-        #### Heading 4
-        ##### Heading 5
-        ###### Heading 6
+A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a "blueprint" for creating objects.
 
-### Paragraphs & Break Lines
+### How to Create a Class
 
-Paragraphs don't require any special characters. Just make sure there is a black line between each paragraph.
-Break lines occur when text starts on a new line.
+Use the "class" keyword
 
-### Emphasis
+Create a class called "MyClass":
 
-You can make text bold or italic by adding emphasis to the text.
+        class MyClass {       // The class
+          public:             // Access specifier
+            int myNum;        // Attribute (int variable)
+            string myString;  // Attribute (string variable)
+        };
 
-        **bold text**
-        __bold text__ (do not use in a sentence, only with standalone text)
-        This is **bold text**.
+The **class** keyword is used to create a class called MyClass.
 
-        *italic text*
-        _italic text_ (do not use in a sentence, only with standalone text)
-        This is *italic text*.
+The **public** keyword is an access specifier, which specifies that members (attributes and methods) of the class are accessible from outside the class. You will learn more about access specifiers later.
 
-        ***bold & italic text***
-        ____bold & italic text____ (do not use in a sentence, only with standalone text)
-        This is **_bold & italic text_**.
-        This is __*bold & italic text*__.
-        This is ***bold & italic text***.
+Inside the class, there is an **integer** variable myNum and a **string** variable myString. When variables are declared within a class, they are called attributes.
 
-### Lists
+End the class definition with a semicolon **;**.
 
-**Ordered Lists**
+### Create an Object
 
-Items can be organized in ordered and unordered lists.
+An object is created from a class. We have already created the class named MyClass, so now we can use this to create objects.
 
-        1. First item
-        2. Second item
-        3. Third item
-        4. Fourth item
+To create an object of MyClass, specify the class name, followed by the object name.
 
-        OR
+To access the class attributes (myNum and myString), use the dot syntax (.) on the object:
 
-        1. First item
-        1. Second item
-        1. Third item
-        1. Fourth item
+Create an object called "myObj" and access the attributes:  
 
-        OR
+        class MyClass {       // The class
+          public:             // Access specifier
+            int myNum;        // Attribute (int variable)
+            string myString;  // Attribute (string variable)
+        };
 
-        1. First item
-        8. Second item
-        3. Third item
-        5. Fourth item
+        int main() {
+          MyClass myObj;  // Create an object of MyClass
 
-        ***It doesn't matter what the actual number are in the list. It reads the list from top to bottom.***
+          // Access attributes and set values
+          myObj.myNum = 15;
+          myObj.myString = "Some text";
 
-        1. First item
-        2. Second item
-        3. Third item
-            1. Indented item
-            2. Indented item
-        4. Fourth item
+          // Print attribute values
+          cout << myObj.myNum << "\n";
+          cout << myObj.myString;
+          return 0;
+        }
 
-**Unordered Lists**
+### Multiple Objects
 
-        To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
+You can create multiple objects of one class:
 
-        - First item
-        - Second item
-        - Third item
-        - Fourth item
+        // Create a Car class with some attributes
+        class Car {
+          public:
+          string brand;   
+          string model;
+          int year;
+        };
 
-        OR
+        int main() {
+          // Create an object of Car
+          Car carObj1;
+          carObj1.brand = "BMW";
+          carObj1.model = "X5";
+          carObj1.year = 1999;
 
-        * First item
-        * Second item
-        * Third item
-        * Fourth item
+          // Create another object of Car
+          Car carObj2;
+          carObj2.brand = "Ford";
+          carObj2.model = "Mustang";
+          carObj2.year = 1969;
 
-        OR
-
-        + First item
-        * Second item
-        - Third item
-        + Fourth item
-
-        OR
-
-        - First item
-        - Second item
-        - Third item
-            - Indented item
-            - Indented item
-        - Fourth item
+          // Print attribute values
+          cout << carObj1.brand << " " << carObj1.model << " " << carObj1.year << "\n";
+          cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << "\n";
+          return 0;
+        }
