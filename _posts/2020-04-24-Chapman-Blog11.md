@@ -39,7 +39,9 @@ To install NPM, use the following commands:
 	$ npm -v or npm –version
 
 
-## Install Node.js using NodeSouce Repository
+
+### Install Node.js using NodeSouce Repository
+------------------------------------------------------
 
 #### Step 1
 
