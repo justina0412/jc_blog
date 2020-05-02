@@ -5,7 +5,7 @@ title: "Blog 12"
 Useful Git Commands
 -------------------------------
 
-Now that my last semester of Senior Design is coming to an end, I thought it would be useful to know many common Git commands that I could've used the past year and/or may be useful in the future. There will be some commands that I've used recently, in the past, and some I've never used before. :)
+Now that my last semester of Senior Design is coming to an end, I thought it would be useful to know many common Git commands that I've used this past year and/or may be useful in the future. :)
 
 #### Git clone
 
